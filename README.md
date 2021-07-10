@@ -4,3 +4,13 @@ O Data Build Tool (DBT) é uma ferramenta moderna para Transformação de dados 
 
 O Athena, ele é uma ferramenta para processamento de dados de forma distribuída da AWS, onde é possível fazer consultas SQL de forma distribuída no Data Lake, onde os dados estejam armazenados no S3 e catalogados no Glue.
 
+
+### Arquitetura
+![alt text](https://github.com/cicerojmm/transformacaoDadosDBTAthena/blob/main/images/arquitetura-dbt-athena.png?raw=true)
+
+
+### Referências
+
+DBT: https://docs.getdbt.com/docs/introduction
+
+Athena: https://aws.amazon.com/pt/athena
