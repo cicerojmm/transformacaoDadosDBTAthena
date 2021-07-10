@@ -1,0 +1,10 @@
+athena:
+  target: athena
+  outputs:
+    athena:
+      type: athena
+      database: awsdatacatalog
+      schema: ml_db
+      region_name: us-east-1
+      threads: 4
+      s3_staging_dir: s3://aws-logs-668305110822-us-east-1/results
