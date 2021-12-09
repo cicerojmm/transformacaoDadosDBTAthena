@@ -7,7 +7,7 @@
 SELECT 
     movies.movieid,
     movies.title,
-    ratings.genres,
+    movies.genres,
     ratings.userid,
     ratings.rating,
     ratings.timestamp
